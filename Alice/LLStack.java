@@ -15,7 +15,7 @@ public class LLStack implements StackInterface {
 
     @Override
     public void push(Object o) {
-        backingLL.push(o);
+        backingLL.add(o);
     }
 
     @Override

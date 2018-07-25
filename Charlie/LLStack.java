@@ -20,7 +20,7 @@ public class LLStack implements StackInterface {
 
     @Override
     public Object pop() {
-        return backingLL.pop();
+        return backingLL.pollFirst();
     }
 
     @Override
